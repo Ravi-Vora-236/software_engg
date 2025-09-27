@@ -1,0 +1,1056 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Calibri;}{\f2\fnil\fcharset1 Segoe UI Emoji;}{\f3\fnil Calibri;}{\f4\fnil\fcharset1 Cambria Math;}{\f5\fnil\fcharset0 Cambria Math;}{\f6\fnil Cambria Math;}{\f7\fnil\fcharset1 Segoe UI Symbol;}{\f8\fnil\fcharset1 Segoe UI Symbol;}{\f9\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red255\green0\blue0;}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont4\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\b\i\fs36\lang9 Software Engineering Assignments\b0\i0\fs22\par
+
+\pard\sa200\sl276\slmult1\par
+\f1\par
+\f0\par
+
+\pard\sa200\sl276\slmult1\b\fs36 1. What is a Program?\b0\fs22\par
+
+\pard{\pntext\f9\'B7\tab}{\*\pn\pnlvlblt\pnf9\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 A program is a collection of instructions written in a programming language that a computer can execute to carry out a specific task or function. Essentially, a program tells the computer what to do, step-by-step, using a specific syntax and logic. It can take input, process it, and produce output.\par
+{\pntext\f9\'B7\tab}Programs are written using programming languages (e.g., C, Python, Java), which provide a way for humans to communicate with computers. These instructions are usually executed in sequence, but they can also involve loops, conditionals, and more complex structures depending on the task.\par
+
+\pard\sa200\sl276\slmult1\par
+
+\pard\sa200\sl276\slmult1\b\fs32 LAB EXERCISE: Simple "Hello World" Program in C\b0\fs28\par
+\par
+
+\pard\sa200\sl276\slmult1\fs22 #include <stdio.h> \par
+#include<conio.h>\par
+\par
+int main()\par
+ \{\par
+    printf("Hello, World!\\n");\par
+    return 0; \par
+\}\par
+\f1\par
+\b\fs32 2. What is Programming?\par
+
+\pard\sa200\sl276\slmult1\b0\fs22\tab Programming is the process of designing, writing, testing, and maintaining a set of instructions (called a program) that a computer can understand and execute to perform a specific task. It involves using a programming language (like C, Python, Java, etc.) to solve problems or automate tasks.\par
+
+\pard\sa200\sl276\slmult1\tab In simple words, programming is how we communicate with computers to tell them what to do.\par
+\par
+\b\fs28 THEORY EXERCISE\b0 :  What Are the Key Steps Involved in the Programming Process?\par
+\fs22\par
+The programming process involves several important steps. Here are the key steps in order:\par
+\par
+\b\fs28 1. Understanding the Problem\b0\fs22\par
+Before writing any code, it's important to clearly understand what the problem is.\par
+Ask: What do I want the program to do? What input is required? What should be the output?\par
+\b\par
+\fs28 2. Planning the Solution (Algorithm Design)\fs22\par
+\b0 Think about how to solve the problem step-by-step.\par
+This is often done by creating an algorithm (a sequence of steps) or writing a flowchart or pseudocode.\par
+\par
+\b\fs28 3. Writing the Code (Implementation\b0\fs22 )\par
+Translate the algorithm into actual code using a programming language (e.g., C, Python, Java).\par
+This is where you start coding the solution.\par
+\par
+\b\fs28 4. Compiling (for compiled languages like C)\b0\fs22\par
+If you're using a compiled language like C or C++, you must compile your code using a compiler.\par
+The compiler converts your human-readable code into machine-readable code.\par
+\par
+\b\fs28 5. Testing and Debugging\par
+\b0\fs22 Run the program and check if it gives the correct output.\par
+If there are errors (called bugs), you need to debug the code and fix them.\par
+\par
+\b\fs28 6. Documentation\b0\fs22\par
+Write comments and documentation so others (or future you) can understand your code.\par
+Good documentation helps in maintaining and updating the program later.\par
+\par
+\b\fs28 7. Maintenance and Updates\b0\fs22\par
+After the program is running, it may need updates or improvements over time.\par
+This includes fixing bugs found later or adding new features.\par
+\par
+\b\fs36 3. Types of Programming Languages\par
+\b0\fs28 There are two types of programming language:\par
+\b\fs22 1. High-level language\fs28\par
+\b0\fs22 High-level languages are designed to be easy for humans to understand and use, making them ideal for application development.\par
+\b 2.Lower-level language\par
+\b0 Low-level languages are closer to machine code, offering greater control and efficiency, which is important for system-level programming.\par
+
+\pard\sa200\sl276\slmult1\b\fs32 THEORY EXERCISE: What are the main differences between high-level and low-level programminglanguages?\par
+\b0\fs22 Understanding the differences between high-level and low-level programming languages is fundamental in computer science. Here's a clear comparison:\par
+\b\fs28 Feature : Abstraction\b0\fs22\par
+High-Level Programming Languages : High abstraction from hardware\par
+Low-Level Programming Languages : Little or no abstraction from hardware\par
+\b\fs28 Feature : Ease of Use\par
+\b0\fs22 High-Level Programming Languages : Easier to read, write, and understand\par
+Low-Level Programming Languages : Harder to read and write\par
+\b\fs28 Feature : Portability\par
+\b0\fs22 High-Level Programming Languages : Portable across platforms\par
+Low-Level Programming Languages : Not portable (tied to specific hardware/CPU)\par
+\b\fs28 Feature : Speed/Performance\par
+\b0\fs22 High-Level Programming Languages : Slower execution (but faster to develop)\par
+Low-Level Programming Languages : Faster execution\par
+\b\fs28 Feature : Memory Management\par
+\b0\fs22 High-Level Programming Languages : Automatic (e.g., garbage collection)\par
+Low-Level Programming Languages : Manual\par
+\b\fs28 Feature : Control over Hardware\par
+\b0\fs22 High-Level Programming Languages : Limited direct access\par
+Low-Level Programming Languages : Full control over hardware resources\par
+\b\fs28 Feature : Compilation/Interpretation\par
+\b0\fs22 High-Level Programming Languages : Needs to be compiled or interpreted\par
+Low-Level Programming Languages : Machine code runs directly\par
+\b\fs28 Feature : Usage\par
+\b0\fs22 High-Level Programming Languages : Application software, web development, etc.\par
+Low-Level Programming Languages : Operating systems, embedded systems, drivers\par
+These are the main differences between high-level programming language and Low-level programming language.\par
+\b\fs32 4. World Wide Web & How Internet Works\b0\fs22\par
+\b\fs28 LAB EXERCISE: Research and create a diagram of how data is transmitted from a client to a server over the internet. \b0\fs22\par
+Here's a step-by-step flow of data transmission over the internet, followed by a diagram:\par
+Steps:\par
+\par
+\b\fs28 Step 1: \par
+\fs22 Client enters a URL \b0 (e.g., {{\field{\*\fldinst{HYPERLINK www.example.com }}{\fldrslt{www.example.com\ul0\cf0}}}}\f1\fs22\par
+) in a web browser.\par
+\b\fs28 Step 2: \par
+\fs22 DNS Resolution \b0 The domain name is sent to a DNS server to get the IP address of the web server.\par
+\b\fs28 Step 3:\par
+ \fs22 Client sends an HTTP request\b0  to the server's IP address via the Internet (using TCP/IP protocol).\par
+\b\fs28 Step 4:\b0\fs22\par
+\b Routers and switches \b0 forward the request through multiple networks to reach the server.\par
+\b\fs28 Step 5:\b0\fs22\par
+\b Server receives the request\b0 , processes it, and sends back an HTTP response (e.g., a webpage).\par
+\b\fs28 Step 6:\b0\fs22\par
+The response travels \b back to the client\b0  along a similar route.\par
+\b\fs28 Step 7:\b0\fs22\par
+The \b web browser renders the content \b0 for the user to see.\par
+\f2\u-10179?\u-8772?\u-497?\f3  \f1 Diagram (Text-Based):\par
+[Client Browser]\cf2\par
+     |\par
+\cf0    \cf3   v\par
+\cf0 [DNS Request] ---> [DNS Server] ---> IP Address\par
+     |\par
+\cf3      v\par
+\cf0 [HTTP Request]\par
+     |\par
+   \cf3   v\par
+\cf0 [Internet Routers/Switches]\par
+     |\par
+\cf3      v\par
+\cf0 [Web Server]\par
+     |\par
+   \cf3   v\par
+\cf0 [HTTP Response]\par
+     |\par
+\cf3      v\par
+\cf0 [Internet Routers/Switches]\par
+     |\par
+   \cf3   v\par
+\cf0 [Client Browser Displays Webpage]\par
+\par
+\b\fs32 THEORY EXERCISE: Describe the roles of the client and server in web communication.\par
+Client : \par
+\b0\fs22 - A device or application (like a web browser) that initiates communication by sending requests to a server.\par
+- Asks for services such as web pages, files, or data.\b  \b0\par
+\b\fs32 Server :\par
+\b0\fs22 - A powerful computer or program that waits for incoming requests from clients.\par
+- Processes the request and sends back the appropriate response (like HTML files, images, or JSON data).\b\par
+\fs32 Example:\fs22\par
+
+\pard{\pntext\f9\'B7\tab}{\*\pn\pnlvlblt\pnf9\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 When you open {{\field{\*\fldinst{HYPERLINK www.google.com }}{\fldrslt{www.google.com\ul0\cf0}}}}\f1\fs22 :\par
+{\pntext\f9\'B7\tab}\b Client =\b0  Your web browser\par
+{\pntext\f9\'B7\tab}\b Server = \b0 Google\f3\rquote\f1 s web server that sends you the search page\b\fs36\par
+
+\pard\sa200\sl276\slmult1 5. Network Layers on Client and Server\par
+\fs32 LAB EXERCISE: Design a simple HTTP client-server communication in any language.\fs36\par
+\fs32 create:\par
+\b0\fs22 1. A server that listens on a port and responds with a basic HTTP message.\par
+2. A client that connects to the server and prints the response.\par
+\b\f3  \f1 1. HTTP Server in C : \b0\par
+// server.c\par
+#include <stdio.h>\par
+#include <string.h>\par
+#include <stdlib.h>\par
+#include <unistd.h>\par
+#include <arpa/inet.h>\par
+\par
+#define PORT 8080\par
+\par
+int main() \{\par
+    int server_fd, new_socket;\par
+    struct sockaddr_in address;\par
+    int addrlen = sizeof(address);\par
+    \par
+    char http_response[] =\par
+        "HTTP/1.1 200 OK\\r\\n"\par
+        "Content-Type: text/html\\r\\n\\r\\n"\par
+        "<html><body><h1>Hello from C Server!</h1></body></html>\\r\\n";\par
+\par
+    // Creating socket file descriptor\par
+    server_fd = socket(AF_INET, SOCK_STREAM, 0);\par
+\par
+    // Set up the address struct\par
+    address.sin_family = AF_INET;\par
+    address.sin_addr.s_addr = INADDR_ANY;\par
+    address.sin_port = htons(PORT);\par
+\par
+    // Bind the socket\par
+    bind(server_fd, (struct sockaddr*)&address, sizeof(address));\par
+\par
+    // Listen for connections\par
+    listen(server_fd, 3);\par
+    printf("Server listening on {{\field{\*\fldinst{HYPERLINK http://localhost:%d\\\\n }}{\fldrslt{http://localhost:%d\\n\ul0\cf0}}}}\f1\fs22 ", PORT);\par
+\par
+    // Accept incoming connection\par
+    new_socket = accept(server_fd, (struct sockaddr*)&address, (socklen_t*)&addrlen);\par
+\par
+    // Send the HTTP response\par
+    send(new_socket, http_response, strlen(http_response), 0);\par
+    printf("HTTP response sent to client.\\n");\par
+\par
+    close(new_socket);\par
+    close(server_fd);\par
+    return 0;\par
+\}\par
+\b 2. HTTP Client in C:\par
+\b0 // client.c\par
+#include <stdio.h>\par
+#include <string.h>\par
+#include <stdlib.h>\par
+#include <unistd.h>\par
+#include <arpa/inet.h>\par
+\par
+#define PORT 8080\par
+\par
+int main() \{\par
+    int sock = 0;\par
+    struct sockaddr_in serv_addr;\par
+    char buffer[4096] = \{0\};\par
+    char *http_request = "GET / HTTP/1.1\\r\\nHost: localhost\\r\\n\\r\\n";\par
+\par
+    sock = socket(AF_INET, SOCK_STREAM, 0);\par
+\par
+    serv_addr.sin_family = AF_INET;\par
+    serv_addr.sin_port = htons(PORT);\par
+\par
+    // Convert IPv4 addresses from text to binary form\par
+    inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr);\par
+\par
+    // Connect to the server\par
+    connect(sock, (struct sockaddr*)&serv_addr, sizeof(serv_addr));\par
+\par
+    // Send HTTP GET request\par
+    send(sock, http_request, strlen(http_request), 0);\par
+\par
+    // Read server response\par
+    read(sock, buffer, sizeof(buffer));\par
+    printf("Server response:\\n%s\\n", buffer);\par
+\par
+    close(sock);\par
+    return 0;\par
+\}\par
+\b\fs32 How to Compile and Run:\par
+\b0\fs22 # Compile both programs\par
+gcc server.c -o server\par
+gcc client.c -o client\par
+\par
+# Run the server in one terminal\par
+./server\par
+\par
+# Run the client in another terminal\par
+./client\par
+\fs32\par
+\b\fs36\par
+\fs32 THEORY EXERCISE: Explain the function of the TCP/IP model and itslayers :\par
+\b0\fs22 The 4 Layers of the TCP/IP Model : \par
+\b\fs28 1. Application Layer\b0\fs22\par
+\b Function:\par
+\b0 Provides network services directly to the user or applications (like web browsers, email clients).\par
+\b What it does:\b0\par
+Formats and sends data (like web pages or emails).\par
+Uses protocols like HTTP, HTTPS, FTP, DNS, SMTP, POP3.\par
+\b Example:\b0\par
+When you open a website in your browser, HTTP is used to request and receive web pages.\par
+\b 2. Transport Layer\b0\par
+\b Function:\b0\par
+Provides end-to-end communication, ensuring data is delivered reliably and in order.\par
+\b Key Protocols:\par
+TCP (Transmission Control Protocol): \b0 Reliable, ordered, connection-oriented.\par
+\b UDP (User Datagram Protocol):\b0  Faster, but connectionless and not reliable.\par
+\b What it does:\b0\par
+
+\pard\sa200\sl276\slmult1 1. Breaks large messages into segments.\par
+2. Ensures each segment is delivered and reassembled at the destination.\par
+
+\pard\sa200\sl276\slmult1\b Example:\b0\par
+-->TCP is used for loading websites.\par
+-->UDP is used for streaming videos or online games.\par
+\b 3. Internet Layer\b0\par
+\b Function:\b0\par
+Handles routing and addressing so that data can travel across different networks.\par
+Key Protocols:\par
+IP (Internet Protocol) \f3\emdash  defines IP addresses and routes packets.\par
+ICMP (used for error messages like "Destination Unreachable").\par
+\b What it does:\b0\par
+\f1\lang1033 1.\f3\lang9 Breaks segments into packets.\par
+\f1\lang1033 2.\f3\lang9 Assigns IP addresses to source and destination.\par
+\f1\lang1033 3.\f3\lang9 Routes packets between networks.\par
+\b\f1 4. Network Access Layer (also called Link Layer)\par
+Function:\par
+\b0 Deals with the physical transmission of data over the network hardware (like cables, routers, Wi-Fi).\par
+\b What it does:\par
+\b0 -->Converts packets into frames for transmission.\par
+-->Uses MAC addresses.\par
+-->Interacts with physical media (e.g., Ethernet, Wi-Fi).\par
+\b Example:\par
+\b0 Sending data over a LAN or wireless connection.\par
+\b\fs32 Data Flow Summary (From Sender to Receiver)\par
+\b0\fs22 Application Layer      \f4\u8594?\f3    \f1 Your app prepares data (e.g., HTTP request)\par
+Transport Layer        \f4\u8594?\f3    \f1 Data is broken into segments (TCP/UDP)\par
+Internet Layer         \f4\u8594?\f3    \f1 Segments become packets, routed by IP\par
+Network Access Layer   \f4\u8594?\f3    \f1 Packets become frames, sent over the physical network\par
+\par
+\b\fs36 6. Client\f5  \f1 and\f5  \f1 Servers\b0\fs22\par
+\fs32 THEORY\f5  \f1 EXERCISE\f5 : \f1 Explain\f5  \f1 Client\f5  \f1 Server\f5  \f1 Communication\par
+\b\fs28 Definition\f5 :\b0\f1\fs32\par
+\fs22\tab Client\f5 -\f1 server\f5  \f1 communication\f5  \f1 is\f5  \f1 a\f5  \f1 model\f5  \f1 in\f5  \f1 computer\f5  \f1 networking\f5  \f1 where\f5  \f1 a\f5  \f1 client\f5  (\f1 user\f5  \f1 device\f5  \f1 or\f5  \f1 application\f5 ) \f1 sends\f5  \f1 a\f5  \f1 request\f5  \f1 to\f5  \f1 a\f5  \f1 server\f5 , \f1 and\f5  \f1 the\f5  \f1 server\f5  \f1 processes\f5  \f1 that\f5  \f1 request\f5  \f1 and\f5  \f1 sends\f5  \f1 back\f5  \f1 a\f5  \f1 response\f5 .\f1\par
+This\f5  \f1 is\f5  \f1 the\f5  \f1 core\f5  \f1 concept\f5  \f1 behind\f5  \f1 most\f5  \f1 online\f5  \f1 services\f5  \f1 such\f5  \f1 as\f5  \f1 websites\f5 , \f1 emails\f5 , \f1 file\f5  \f1 downloads\f5 , \f1 and\f5  \f1 more\f5 .\par
+\b\fs28 How Client-Server Communication Works:\par
+1. The Client:\par
+\b0\fs22 A client is a device (like a computer or phone) or software (like a browser or app) that:\par
+-->  initiates the communication.\par
+-->  Sends a request for data or services.\par
+-->  Waits for and receives the response.\par
+\b\par
+\fs28 2. The Server:\fs22\par
+\b0 A server is a powerful computer or software that:\par
+--> Listens for incoming requests from clients.\par
+-->Processes the requests.\par
+-->Sends back the appropriate response (data, web page, file, etc.).\par
+\par
+\b\fs28 Communication Process (Step-by-Step):\b0\fs22\par
+1. Client sends a request (e.g., HTTP request to open a web page).\par
+2. Server receives the request, processes it (e.g., retrieves the HTML file).\par
+3. Server sends a response back to the client.\par
+4. Client receives and uses the response (e.g., displays the webpage).\par
+\par
+\b\fs28 Example (Web Browser and Web Server):\b0\fs22\par
+Client: Web browser like Chrome or Firefox\par
+Server: Website\f6\rquote\f5 s hosting server (e.g., {{\field{\*\fldinst{HYPERLINK www.example.com }}{\fldrslt{www.example.com\ul0\cf0}}}}\f5\fs22  )\par
+\b\fs28 Process:\b0\fs22\par
+-->Client sends: GET /index.html.\par
+-->Server responds: Sends back the HTML page content.\par
+\par
+\b\fs36 7. Types of Internet Connections \fs28\par
+LAB EXERCISE:\par
+\fs32 Research different types of internet connections (e.g., broadband, fiber, satellite) and list their pros and cons. \par
+\par
+\fs22 After research , there are 6 types of internet connection found:\par
+\b0\lang1033 1. DSL (Digital Subscriber Line)\par
+2. Cable Internet\par
+3. Fiber-Optic Internet\par
+4. Satellite Internet\par
+5.Mobile Internet (4G/5G)\par
+
+\pard\sa200\sl276\slmult1 6. Dial-Up (Old Technology)\par
+
+\pard\sa200\sl276\slmult1\b\fs28\par
+\fs22\par
+\fs28 Internet Connections Pros and Cons : \b0\par
+\b 1. DSL (Digital Subscriber Line)\fs22\par
+\fs28 Uses: \b0\fs22 Phone lines (without interrupting calls)\par
+\par
+\b\f6\fs28  \f5 Pros:\b0\fs22\par
+1. Widely available\par
+2. Cheaper than fiber or cable\par
+\b\fs32 Cons:\b0\fs22\par
+1. Slower speeds\par
+2. Distance from provider affects performance\par
+3. Fiber-Optic Internet\par
+\par
+\b\fs28 2. Cable Internet\par
+Uses: \b0 Coaxial TV cables\fs22\par
+\b\fs28 Pros:\b0\fs22\par
+1. Faster than DSL\par
+2.Widely available in cities\par
+\b\fs28 Cons:\par
+\b0\fs22 1. Shared bandwidth = slower during peak hours\par
+2. More expensive than DSL\par
+3. Fiber-Optic Internet\par
+3. Fiber-Optic Internet\par
+\par
+\b\fs28 3. Fiber-Optic Internet\par
+Uses: \b0 Light signals through glass fibers\par
+\b Pros:\b0\fs22\par
+1. Extremely fast speeds (up to 1 Gbps or more).\par
+2. Reliable and consistent.\par
+\b\fs28 Cons:\par
+\b0\fs22 1. Limited availability (mostly urban areas)\par
+2. Expensive installation in rural areas\par
+\b\fs28 4. Satellite Internet\par
+Uses: \b0 Satellite signals (no cables needed)\fs22\par
+\b\fs28 Pros:\b0\fs22\par
+1. Available almost everywhere (rural/remote areas)\par
+\b\fs28 Cons:\b0\fs22\par
+1. High latency (delay)\par
+2. Weather can affect performance\par
+3. Limited data plans\par
+\par
+\b\fs28 5.Mobile Internet (4G/5G)\par
+Uses: Cellular networks\par
+Pros:\par
+\b0\fs22 1. Portable and wireless\par
+2. Good speeds, especially with 5G\par
+\b\fs28 Cons:\b0\fs22\par
+1. Data limits or higher cost\par
+2. Signal strength depends on location\par
+\b\fs28\par
+6. Dial-Up (Old Technology)\par
+Uses: Traditional phone lines\b0\fs22\par
+\b\fs28 Pros:\b0\fs22\par
+1. Very cheap\par
+\b\fs28 Cons:\par
+\b0\fs22 1.Extremely slow\par
+2.Not suitable for modern usage\par
+\b\fs36\par
+THEORY EXERCISE: How does broadband differ from fiber-optic internet?\par
+\fs32 Broadband:\fs36\par
+\fs28 Definition:\par
+\b0\fs22\tab Broadband is a general term for high-speed internet connections that are always on and faster than traditional dial-up.\fs28\par
+\b Types of Broadband include:\par
+\fs22 1. DSL\par
+2. Cable\par
+3. Satellite\par
+4. Fiber-optic\par
+5. Mobile (4G/5G)\par
+6. Speed & Technology:\par
+\b0\par
+Speeds vary depending on the type (e.g., DSL is slower, cable is moderate).\par
+\b\fs32 Fiber-Optic Internet:\fs22\par
+\fs28 Definition:\fs22\par
+\b0\tab Fiber-optic internet is a specific type of broadband that uses glass or plastic cables to transmit data using light signals.\par
+\b\par
+Speed & Reliability:\par
+\b0 1. Much faster than DSL or cable (up to 1 Gbps or more)\par
+2. More reliable and stable connection\par
+3. Low latency (delay)\par
+\par
+Aspect\tab\tab\tab Broadband\tab\tab\tab\tab   \tab   Fiber-Optic Internet\par
+Meaning\tab     General term for high-speed internet\tab Specific                  type of broadband\par
+Technology\tab      Uses copper wires, coaxial cables, etc.\tab    \tab    Uses glass fibers and light signals\par
+Speed\tab Varies \tab        (DSL: slow, cable: medium)\tab\tab\tab\tab Very fast (up to 1 Gbps or more)\par
+Reliability\tab          Moderate\tab\tab\tab\tab\tab\tab Very high\par
+Availability\tab            Widely available\tab\tab\tab\tab\tab Limited to areas with fiber networks\par
+\b\f1\lang9\par
+\fs36 8. Protocols\par
+LAB EXERCISE: Simulate HTTP and FTP requests using command line tools (e.g., curl). \par
+\fs28 1. Simulate an HTTP Request with curl\par
+\b0\fs22 curl {{\field{\*\fldinst{HYPERLINK http://example.com }}{\fldrslt{http://example.com\ul0\cf0}}}}\f1\fs22\par
+\b Explanation:\b0\par
+This command sends an HTTP GET request to the server at example.com.\par
+It retrieves and displays the HTML content of the homepage.\par
+\b\fs28 2. Simulate an HTTPS Request with curl\par
+\b0\fs22 curl {{\field{\*\fldinst{HYPERLINK https://example.com }}{\fldrslt{https://example.com\ul0\cf0}}}}\f1\fs22\par
+\b Explanation:\b0\par
+This sends a secure HTTP (HTTPS) request to the same server.\par
+The connection is encrypted using SSL/TLS, protecting data from interception.\par
+\par
+\b\fs28 3. Simulate an FTP Request with curl\b0\fs22\par
+curl {{\field{\*\fldinst{HYPERLINK ftp://speedtest.tele2.net/1KB.zip }}{\fldrslt{ftp://speedtest.tele2.net/1KB.zip\ul0\cf0}}}}\f1\fs22  --user anonymous:\par
+\b Explanation:\b0\par
+This connects to a public FTP server and downloads a test file.\par
+The --user anonymous: option is used for anonymous FTP login.\par
+\par
+\b\fs36 THEORY EXERCISE: What are the differences between HTTP and HTTPS protocols?\par
+\fs22\par
+Full Form\tab\tab HyperText Transfer Protocol\tab\tab HyperText Transfer Protocol \tab\tab\tab\tab\tab\tab\tab\tab\tab Secure.\par
+\b0 Security\tab\tab Not secure (data sent in plain text)\tab Secure (data encrypted with \tab\tab\tab\tab\tab\tab\tab\tab\tab SSL/TLS)\par
+Encryption\tab\tab No encryption\tab\tab\tab\tab Uses encryption\par
+Port Number\tab\tab 80\tab\tab\tab\tab\tab 443\par
+URL Prefix\tab\tab http://\tab\tab\tab\tab\tab https://\par
+Data Protection\tab\tab Vulnerable to attacks (e.g., sniffing)\tab Protects data from \tab\tab\tab\tab\tab\tab\tab\tab\tab\tab hackers and spies\par
+Browser Indicator\tab No lock icon in address bar\tab\tab Lock icon \f7\u-10179?\u-8942?\f3  \f1 shows secure c\tab\tab\tab\tab\tab\tab\tab\tab\tab onnection\par
+Use Cases\tab\tab Basic websites, blogs\tab\tab\tab Banking, e-commerce, login \tab\tab\tab\tab\tab\tab\tab\tab\tab pages\par
+\par
+\b\fs36 9.Application Security\par
+LAB EXERCISE: Identify and explain three common application security vulnerabilities. Suggest possible solutions. \par
+\fs32 1. SQL Injection (SQLi)\b0\fs22\par
+\b\fs28 Explanation:\b0\fs22\par
+\tab Happens when attackers insert malicious SQL code into input fields (e.g., login forms) to access or modify a database.\par
+\b\fs28 Example:\b0\fs22\par
+Inputting ' OR '1'='1 in a login field to bypass authentication.\par
+\b\fs28 Solution:\par
+
+\pard\sa200\sl276\slmult1\b0\fs22 Use parameterized queries or prepared statements.\par
+Sanitize and validate all user input.\par
+Avoid directly inserting user input into SQL queries.\par
+
+\pard\sa200\sl276\slmult1\par
+\b\fs32 2. Cross-Site Scripting (XSS)\par
+\fs28 Explanation:\b0\fs22\par
+\tab Occurs when attackers inject malicious scripts into web pages that are viewed by other users. These scripts can steal session cookies or manipulate the DOM.\par
+\b\fs28 Example:\b0\fs22\par
+Posting <script>alert('Hacked')</script> in a comment section.\par
+\b\fs28 Solution:\b0\fs22\par
+1. Escape or encode output before displaying user input in HTML.\par
+2. Use Content Security Policy (CSP) headers.\par
+3. Filter and validate input from all sources.\par
+\b\fs32\par
+3. Insecure Authentication\b0\fs22\par
+\b\fs28 Explanation:\b0\fs22\par
+\tab Weak login mechanisms (like simple passwords or no account lockout) can allow brute-force or credential stuffing attacks.\par
+\b\fs28 Solution:\b0\fs22\par
+1.Enforce strong password policies.\par
+2. Implement multi-factor authentication (MFA).\par
+3. Use rate limiting and account lockout after failed attempts.\par
+\par
+\b\fs36 THEORY EXERCISE: What is the role of encryption in securing applications?\par
+\fs28 Definition of Encryption:\b0\fs22\par
+\par
+\tab Encryption is the process of converting plain text into unreadable code (cipher text) so that only authorized users can read it using a decryption key.\par
+\par
+\b\fs32 Role of Encryption in Application Security:\b0\fs22\par
+\b\fs28 1. Protects Sensitive Data:\b0\par
+\fs22 1. Encrypts user data (e.g., passwords, credit card numbers) in storage and during transmission.\par
+2. Prevents unauthorized access even if data is stolen.\par
+\b\fs28 2. Secures Communication:\b0\fs22\par
+1. SSL/TLS encryption ensures safe data exchange between client and server (used in HTTPS).\par
+2. Prevents attackers from eavesdropping or tampering with messages.\par
+\b\fs28 3. Ensures Data Integrity and Confidentiality:\b0\fs22\par
+1. Makes sure data is not altered in transit.\par
+2. Keeps information private and secure from third parties.\par
+\b\fs28 4. Compliance with Regulations:\par
+\b0\fs22 1. Many laws (like GDPR, HIPAA) require encryption for handling personal or health data.\par
+\par
+\b\fs28 Application Part\b0\fs22\tab\tab\tab\tab\b\fs28 Encryption Used\b0\fs22\par
+Web communication\tab\tab\tab\tab SSL/TLS (HTTPS)\par
+Password storage\tab\tab\tab\tab Hashing (e.g., bcrypt, SHA-256)\par
+Database fields\tab\tab\tab\tab\tab AES encryption for sensitive data\par
+\par
+\tab Encryption is essential for protecting data in applications. It helps ensure privacy, secure communication, and compliance with security standards \f3\emdash  making it a fundamental part of modern application security.\par
+\par
+
+\pard\sa200\sl276\slmult1\b\f1\fs36\lang1033 10. \f3\lang9 Software Applications and Its Types\par
+
+\pard\sa200\sl276\slmult1 LAB EXERCISE: Identify and classify 5 applications you use daily as either systemsoftware or\par
+\fs28 Identify and Classify 5 Daily-Use Applications as System Software or Application Software\par
+\par
+Software/Application\tab\f1\lang1033\tab\f3\lang9 Type\tab\f1\lang1033\tab\tab\tab\f3\lang9 Why?\par
+\b0\fs22 Google Chrome\tab\f1\lang1033\tab\f3\lang9 Application Software\tab\f1\lang1033\tab\f3\lang9 Used for web browsing \f1\lang1033\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\lang9 by the user.\par
+Microsoft Word\tab\f1\lang1033\tab\tab\f3\lang9 Application Software\tab\f1\lang1033\tab\f3\lang9 Used to write and edit \f1\lang1033\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\lang9 documents.\par
+Windows 10/11\f1\lang1033\tab\tab\f3\lang9\tab System Software\tab\f1\lang1033\tab\f3\lang9 Operating System \emdash  manages \f1\lang1033\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\lang9 ardware and runs applications.\par
+Antivirus (e.g., Windows\f1\lang1033\tab\f3\lang9  System Software\tab\f1\lang1033\tab\f3\lang9 Protects the system from malware and Defender)\f1\lang1033\tab\tab\tab\tab\tab\f3\lang9 runs in the background.\par
+WhatsApp Desktop App\tab Application Software\tab\f1\lang1033\tab\f3\lang9 Used for messaging and communication.\par
+\b\fs36\par
+\par
+\f1\lang1033 11. \f3\lang9 application software. THEORY EXERCISE: Whatis the difference between system software and application software?\par
+\f1\fs32 System Software\b0\fs22\par
+\par
+\b\fs28 Definition:\b0\fs22\par
+System software is a type of software designed to control and manage the computer hardware and create an environment for other software (like application software) to run.\par
+\par
+\b\fs28 Purpose:\b0\fs22\par
+Operates the system and provides a platform for running application software.\par
+\par
+\b\fs28 Examples:\b0\fs22\par
+1. Operating Systems (Windows, macOS, Linux)\par
+2. Device Drivers\par
+3. Utility Programs (Disk Management, Antivirus)\par
+\par
+\b\fs32 Application Software\b0\fs22\par
+\par
+\b\fs28 Definition:\b0\fs22\par
+Application software is designed to help users perform specific tasks, like creating documents, browsing the web, or editing photos.\par
+\b\fs28\par
+Purpose:\par
+\b0\fs22 Directly serves the user\f3\rquote\f1 s needs for various personal or business tasks.\par
+\par
+\b\fs28 Examples:\b0\fs22\par
+1. Microsoft Word\par
+2. Google Chrome\par
+3. VLC Media Player\par
+4. Adobe Photoshop\par
+\par
+\b\fs32 Comparison Table\fs28\par
+\b0\fs22\par
+\b\fs28 Feature\tab\tab System Software\tab\tab\tab Application Software\b0\fs22\par
+Function\tab\tab Manages system operations\tab\tab Performs specific user tasks\par
+User Interaction\tab Minimal (mostly in background)\tab Directly used by the user\par
+Installation\tab\tab Comes pre-installed (usually)\tab\tab Installed based on user need\par
+Examples\tab\tab Windows OS, Antivirus, Drivers\tab\tab Word, Chrome, Zoom, Spotify\par
+\par
+\b\fs36 Software Architecture\b0\fs22\par
+\b\fs36 LAB EXERCISE:\b0  Design a basic three-tiersoftware architecture diagram for a web application.\fs22  \par
+\b\fs32 Three-Tier Architecture Diagram:\par
+\b0\fs22 +------------------------+\par
+|  Presentation Tier     |      \f4\u8592?\f3  \f1 Web browser / Mobile app\par
+|  (Frontend)            |\par
+|  - HTML, CSS, JS       |\par
+|  - React / Angular     |\par
++------------------------+\par
+\f3            \lang1033   \f8\u9474?\f1\par
+\f3             \f8\u9660?\f1\par
++------------------------+\par
+|  Logic Tier            |      \f4\u8592?\f3  \f1 Server-side logic\par
+|  (Backend)             |\par
+|  - PHP, Python, Node.js|\par
+|  - APIs, Controllers   |\par
++------------------------+\par
+\f3             \lang1033  \f8\u9474?\f1\par
+\f3             \f8\u9660?\f1\par
++------------------------+\par
+|  Data Tier             |      \f4\u8592?\f3  \f1 Database server\par
+|  (Database)            |\par
+|  - MySQL, PostgreSQL   |\par
+|  - MongoDB             |\par
++------------------------+\lang9\par
+\fs36\par
+\b THEORY EXERCISE: Whatis the significance of modularity in software architecture?\par
+\fs28 Definition:\fs36\par
+\tab\b0\fs22 Modularity in software architecture means breaking down an application into independent, self-contained components or modules, each responsible for a specific function.\par
+\b\fs36\par
+\fs32 Significance / Benefits of Modularity:\b0\fs22\par
+\b\fs28 1. \f3  \f1 Improved Maintainability\b0\fs22\par
+1.Each module can be developed, tested, and updated independently.\par
+2. Easier to fix bugs without affecting the entire system.\par
+\par
+\b\fs28 2. Reusability\b0\par
+\fs22 1. Modules can be reused across different projects.\par
+2. Example: An authentication module can be reused in multiple apps.\par
+\par
+\b\fs28 3. \f3  \f1 Simplified Development\b0\fs22\par
+1. Teams can work on different modules in parallel, speeding up development.\par
+2. Easier to understand and manage code.\par
+\par
+\b\fs28 4. Enhanced Security\par
+\b0\fs22 1. Sensitive functionalities (like login or payment) can be isolated in secure modules.\par
+2. Reduces the risk of security issues spreading across the system.\par
+\par
+\b\fs28 5.\f3  \f1 Scalability\b0\fs22\par
+1. Individual modules can be scaled or upgraded independently as the application grows.\par
+\par
+\tab Modularity is crucial in software architecture because it makes applications easier to develop, maintain, test, reuse, and scale. It leads to cleaner, more organized, and more efficient systems.\par
+\par
+\b\fs36 12.Layersin Software Architecture\par
+LAB EXERCISE: Create a case study on the functionality of the presentation, businesslogic, anddataaccess layers of a given software system. \par
+\par
+\fs32 Case Study: \b0 Functionality of Presentation, Business Logic, and Data Access Layers\par
+\b 1. Presentation Layer (UI Layer)\b0\par
+\par
+\b\fs28 Function:\par
+\b0\fs22 This is the front-end of the application \f3\emdash  it interacts with the user and displays content (buttons, forms, product listings, etc.).\par
+\par
+\b\fs28 Technologies Used:\par
+\b0\fs22 HTML, CSS, JavaScript, React, Angular\par
+\par
+\b\fs28 Example in Case Study:\b0\fs22\par
+\b\f1\fs28\lang1033 1. \f3\lang9 The user opens the website and views a product catalog.\par
+\b0\fs22\par
+They add items to the cart, click "Buy Now", or fill out a checkout form.\par
+\par
+All actions here are collected and passed to the next layer.\par
+\par
+\b\f1\fs28 2. Business Logic Layer (Application Layer)\b0\fs22\par
+\par
+\b\fs28 Function:\b0\fs22\par
+\tab Processes the rules and logic of the application. It acts as a middle layer, deciding how data is handled.\par
+\par
+\b\fs28 Technologies Used:\b0\fs22\par
+Java, Python, PHP, Node.js, .NET\par
+\par
+\b\fs28 Example in Case Study:\par
+\b0\fs22 1. Checks if the product is in stock.\par
+2. Calculates the total price, applies discounts, and verifies payment information.\par
+3. Sends order confirmation or error messages to the UI.\par
+\par
+\b\fs28 3. Data Access Layer (Persistence Layer)\b0\fs22\par
+\par
+\b\fs28 Function:\b0\fs22\par
+Manages all communication with the database \f3\emdash  saving, retrieving, updating, or deleting data.\par
+\par
+\b\fs28 Technologies Used:\b0\fs22\par
+SQL, ORM tools (like Hibernate, Sequelize, Entity Framework), Database drivers\par
+\par
+\b\fs28 Example in Case Study:\par
+\b0\f1\fs22\lang1033 1. \f3\lang9 Fetches product data when a user visits the catalog.\par
+\f1\lang1033 2. \f3\lang9 Stores order and payment details in the database.\par
+\f1\lang1033 3. \f3\lang9 Retrieves a customer\rquote s past orders for their account page.\par
+\par
+\b\f1\fs28 How They Work Together:\b0\fs22\par
+1. User clicks \f3\ldblquote\f1 Buy Now\f3\rdblquote  \f4\u8594?\f1\par
+2. UI sends request to Business Logic Layer \f4\u8594?\f1\par
+3. Business Logic checks data and sends queries to Data Access Layer \f4\u8594?\f1\par
+4. Data Access Layer interacts with the database \f4\u8594?\f1\par
+5. Result flows back up to Presentation Layer and shows confirmation to user.\lang9\par
+\b\fs28 Example System: \par
+\b0\fs22 1.Online Shopping Web Application (E-commerce Site)\par
+\b\fs36\par
+THEORY EXERCISE: Why are layersimportant in software architecture?\par
+\f3\fs22  \f1\fs28 Definition:\b0\fs22\par
+\tab In software architecture, layers refer to separating the application into logical sections or levels (e.g., presentation, business logic, and data access) \f3\emdash  each with a distinct responsibility.\par
+\par
+\b\f1\fs28 Importance of Layers:\b0\fs22\par
+\b\fs28 1. Separation of Concerns\b0\fs22\par
+1. Each layer focuses on a specific task (e.g., UI doesn\f3\rquote\f1 t handle database logic).\par
+2. Makes the codebase easier to understand and manage.\par
+\b\fs28 2. \f3  \f1 Maintainability\par
+\b0\fs22 1. Changes in one layer (e.g., updating the UI) can be done without affecting others.\par
+2. Easier to fix bugs or add features.\par
+\b\fs28 3. \f3  \f1 Reusability\b0\fs22\par
+Layers like business logic can be reused across multiple applications (e.g., web, mobile).\par
+\b\fs28 4. \f3  \f1 Testability\par
+\b0\fs22 Individual layers can be unit tested independently.\par
+For example, you can test business rules without needing a user interface.\par
+\b\fs28 5. \f3  \f1 Scalability\par
+\b0\fs22\tab Each layer can be scaled separately. For instance, the database layer can be optimized or moved to a separate server.\par
+\b\fs28 6. Security\b0\fs22\par
+\tab Sensitive operations (like authentication or data access) are separated from the UI, reducing the risk of exposing vulnerabilities.\par
+\par
+\tab Layers in software architecture promote clean, organized, and scalable design. They help developers build robust, maintainable, and testable applications by dividing responsibilities across well-defined sections.\par
+\par
+\b\fs36 13. Software Environments\b0\fs22\par
+\b\fs32 LAB EXERCISE:\par
+\b0\fs22 Explore different types of software environments (development, testing, production). Set up a basic environment in a virtual machine.\par
+\par
+Types of Environments:\par
+- Development Environment: Where developers write and test their code locally.\par
+- Testing Environment: Used for quality assurance, bug testing, and validation.\par
+- Production Environment: The live system used by end users.\par
+\par
+Setup Example:\par
+I used VirtualBox to install Ubuntu Linux. Installed Python and Git to create a simple development environment. Configured a sample Flask web application to demonstrate how different environments can be managed.\par
+\par
+\b\fs32 THEORY EXERCISE:\b0\fs22\par
+\tab The development environment is important in software production because it provides a safe and controlled space for programmers to write, debug, and test code before moving it to testing or production. It reduces risks, ensures stability, and helps maintain productivity.\par
+\par
+\b\fs36 14. Source Code\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Write and upload your first source code file to GitHub.\par
+\par
+Steps:\par
+1. Create a simple C program (Hello World).\par
+2. Initialize a local Git repository.\par
+3. Commit the file and push it to GitHub.\par
+\par
+Example Code (hello.c):\par
+#include<stdio.h>\par
+int main() \{\par
+   printf("Hello, World!\\n");\par
+   return 0;\par
+\}\par
+\par
+\b\fs32 THEORY EXERCISE:\b0\fs22\par
+\tab Source code is the human-readable set of instructions written in programming languages such as C, Python, or Java. Machine code, on the other hand, is the binary code (0s and 1s) that the computer's processor understands. Source code must be compiled or interpreted into machine code before execution.\par
+\par
+\b\fs36 15. GitHub and Introductions\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Create a GitHub repository and document how to commit and push code changes.\par
+\par
+Steps:\par
+1. Create a repository on GitHub.\par
+2. Clone the repository using: git clone <repo_url>\par
+3. Add files: git add filename\par
+4. Commit changes: git commit -m "Initial commit"\par
+5. Push changes: git push origin main\par
+\b\fs28\par
+THEORY EXERCISE:\par
+\b0\fs22\tab Version control is important because it allows multiple developers to work collaboratively, tracks changes to code, prevents overwriting, and maintains a history of project evolution. It also enables reverting to previous versions when errors occur.\par
+\par
+\b\fs36 16. Student Account in GitHub\par
+\fs28 LAB EXERCISE:\b0\fs22\par
+Create a student account on GitHub and collaborate on a small project with a classmate.\par
+\par
+Steps:\par
+1. Sign up with GitHub Student Developer Pack.\par
+2. Create a repository and add a collaborator.\par
+3. Both students clone the repo and work on different features.\par
+4. Merge changes using pull requests.\par
+\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+GitHub provides students with free access to tools, collaboration features, and resources. It helps students learn real-world development workflows, showcase projects, and collaborate easily with peers.\par
+\par
+\b\fs36 17. Types of Software\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+List of regularly used software and classification:\par
+\par
+System Software:\par
+- Windows 11, Linux Ubuntu\par
+\par
+Application Software:\par
+- MS Word, Google Chrome, WhatsApp\par
+\par
+Utility Software:\par
+- Antivirus (Avast), WinRAR, Disk Cleanup\par
+\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+\tab Open-source software is software whose source code is available publicly for free use, modification, and distribution. Examples: Linux, Apache.\par
+\tab Proprietary software is owned by companies and requires a license to use, with restrictions on modification. Examples: Microsoft Office, Adobe Photoshop.\par
+\par
+\b\fs36 18. Git and GitHub Training\b0\fs22\par
+\b\fs28 LAB EXERCISE:\par
+\b0\fs22 Followed a Git tutorial:\par
+- Cloned a repository using git clone.\par
+- Created a new branch using git checkout -b feature.\par
+- Merged the branch into main using git merge feature.\par
+\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+\tab Git improves collaboration by allowing multiple developers to work on the same project simultaneously, track changes, manage branches for new features, and merge work seamlessly. It prevents code conflicts and maintains history.\par
+\par
+\par
+\b\fs36 19. Application Software\par
+\fs28 LAB EXERCISE:\par
+\b0\fs22 Report on Types of Application Software and Productivity:\par
+\par
+- Word Processing Software (MS Word, Google Docs): Helps create documents quickly.\par
+- Spreadsheet Software (MS Excel, Google Sheets): Used for data analysis and financial management.\par
+- Presentation Software (PowerPoint, Canva): Improves communication of ideas.\par
+- Database Software (MySQL, MS Access): Helps organize and retrieve information.\par
+- Communication Software (Zoom, Slack): Facilitates remote collaboration.\par
+\par
+These applications improve productivity by automating tasks, increasing efficiency, and enabling teamwork.\par
+\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+Application software plays a critical role in businesses by enabling employees to complete tasks efficiently, manage resources, analyze data, and communicate effectively. It supports decision-making, improves workflow, and enhances customer service.\par
+\par
+\b\fs36 20. Software Development Process\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Flowchart of the Software Development Life Cycle (SDLC):\par
+\par
+1. Requirement Analysis \f4\u8594?\f3  \f1 2. System Design \f4\u8594?\f3  \f1 3. Implementation \f4\u8594?\f3  \f1 4. Testing \f4\u8594?\f3  \f1 5. Deployment \f4\u8594?\f3  \f1 6. Maintenance\par
+\par
+The flowchart represents the step-by-step process followed during software development.\par
+\par
+THEORY EXERCISE:\par
+The main stages of the software development process are:\par
+1. Requirement Analysis\par
+2. System Design\par
+3. Implementation (Coding)\par
+4. Testing\par
+5. Deployment\par
+6. Maintenance\par
+\par
+These stages ensure structured and efficient software creation.\par
+\par
+\b\fs36 21. Software Requirement\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Requirement Specification for a Library Management System:\par
+\par
+- The system should allow users to search for books by title, author, or ISBN.\par
+- Admins can add, update, or remove books.\par
+- Users can borrow and return books.\par
+- The system should track due dates and calculate late fees.\par
+- Generate reports on book availability and borrowing history.\par
+\par
+\b\fs28 THEORY EXERCISE:\par
+\b0\fs22 Requirement analysis is critical because it ensures developers fully understand what the client needs. It reduces misunderstandings, prevents costly rework, and provides a clear foundation for design and development.\par
+\par
+\b\fs36 22. Software Analysis\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Functional Analysis for an Online Shopping System:\par
+\par
+- User registration and login\par
+- Browse products by categories\par
+- Add items to shopping cart\par
+- Checkout and payment processing\par
+- Order history tracking\par
+- Admin panel for product management and order monitoring\par
+\par
+\b\fs28 THEORY EXERCISE:\par
+\b0\fs22 Software analysis identifies functional and non-functional requirements of a system. It helps in defining what the system should do, improving design decisions, and ensuring the final product meets user expectations.\par
+\fs36\par
+\b 23. System Design\b0\par
+\b\fs28 LAB EXERCISE:\par
+\b0\fs22 Basic System Architecture for a Food Delivery App:\par
+\par
+- Client Side (Mobile App / Website): User registration, browsing restaurants, placing orders.\par
+- Server Side: Processes orders, manages restaurants, tracks delivery.\par
+- Database: Stores user details, restaurant menus, order history.\par
+- Delivery Module: Assigns delivery agents and provides real-time tracking.\par
+\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+Key elements of system design include:\par
+- Architecture design\par
+- Database design\par
+- User interface design\par
+- Security considerations\par
+- Integration and scalability planning\par
+\par
+\b\fs36 24. Software Testing\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Test Cases for a Simple Calculator Program:\par
+\par
+1. Input: 2 + 3 \f4\u8594?\f3  \f1 Expected Output: 5\par
+2. Input: 10 - 4 \f4\u8594?\f3  \f1 Expected Output: 6\par
+3. Input: 5 * 6 \f4\u8594?\f3  \f1 Expected Output: 30\par
+4. Input: 8 / 2 \f4\u8594?\f3  \f1 Expected Output: 4\par
+5. Input: 9 / 0 \f4\u8594?\f3  \f1 Expected Output: Error (division by zero)\par
+\b\fs28\par
+THEORY EXERCISE:\par
+\b0\fs22 Software testing is important because it ensures the software is free from critical bugs, meets requirements, improves quality, and prevents failures in production. It also increases customer trust and reduces costs of fixing errors later.\par
+\par
+\b\fs36 25. Maintenance\b0\fs22\par
+\b\fs28 LAB EXERCISE:\b0\fs22\par
+Real-world Case: WhatsApp introduced multi-device login, which required critical maintenance. The feature was added through updates, bug fixes, and performance improvements to ensure smooth operation.\par
+\b\fs28\par
+THEORY EXERCISE:\par
+\b0\fs22 Types of Software Maintenance:\par
+- Corrective: Fixing bugs and errors.\par
+- Adaptive: Updating the system to work with new hardware or OS.\par
+- Perfective: Improving performance or adding new features.\par
+- Preventive: Enhancing reliability to prevent future issues.\par
+\par
+\b\fs36 26. Development\b0\fs22\par
+\b\fs28 THEORY EXERCISE:\b0\fs22\par
+Differences between Web and Desktop Applications:\par
+\par
+- Web Applications:\par
+ * Run in a browser.\par
+ * Accessible from anywhere with internet.\par
+ * Easier to update centrally.\par
+ * Examples: Gmail, Google Docs.\par
+\par
+- Desktop Applications:\par
+ * Installed on a personal computer.\par
+ * Work offline without internet.\par
+ * Updates must be installed by users.\par
+ * Examples: MS Word, Photoshop.\par
+\par
+\b\fs36 27\f5 . \f1 Web\f5  \f1 Application\b0\fs22\par
+\par
+\b\fs28 THEORY\f5  \f1 EXERCISE\f5 :\b0\f1\fs22\par
+What\f5  \f1 are\f5  \f1 the\f5  \f1 advantages\f5  \f1 of\f5  \f1 using\f5  \f1 web\f5  \f1 applications\f5  \f1 over\f5  \f1 desktop\f5  \f1 applications\f5 ?\f1\par
+\par
+Answer\f5 :\f1\par
+\tab\f4\bullet\f1\tab Accessibility\f5 : \f1 Web\f5  \f1 apps\f5  \f1 can\f5  \f1 be\f5  \f1 accessed\f5  \f1 from\f5  \f1 anywhere\f5  \f1 with\f5  \f1 an\f5  \f1 internet\f5  \f1 connection\f5 .\f1\par
+\tab\f4\bullet\f1\tab Cross\f5 -\f1 Platform\f5  \f1 Compatibility\f5 : \f1 They\f5  \f1 run\f5  \f1 on\f5  \f1 multiple\f5  \f1 operating\f5  \f1 systems\f5  \f1 and\f5  \f1 devices\f5  \f1 via\f5  \f1 browsers\f5 .\f1\par
+\tab\f4\bullet\f1\tab Easy\f5  \f1 Updates\f5 : \f1 Updates\f5  \f1 are\f5  \f1 applied\f5  \f1 on\f5  \f1 the\f5  \f1 server\f5  \f1 side\f5 , \f1 so\f5  \f1 users\f5  \f1 automatically\f5  \f1 get\f5  \f1 the\f5  \f1 latest\f5  \f1 version\f5 .\f1\par
+\tab\f4\bullet\f1\tab Cost\f5 -\f1 Effective\f5 : \f1 No\f5  \f1 installation\f5  \f1 is\f5  \f1 required\f5  \f1 on\f5  \f1 individual\f5  \f1 machines\f5 .\f1\par
+\tab\f4\bullet\f1\tab Collaboration\f5 : \f1 Web\f5  \f1 apps\f5  \f1 enable\f5  \f1 real\f5 -\f1 time\f5  \f1 sharing\f5  \f1 and\f5  \f1 teamwork\f5 .\f1\par
+\tab\f4\bullet\f1\tab Cloud\f5  \f1 Storage\f5 : \f1 Data\f5  \f1 is\f5  \f1 stored\f5  \f1 online\f5 , \f1 reducing\f5  \f1 dependency\f5  \f1 on\f5  \f1 local\f5  \f1 hardware\f5 .\f1\par
+\b\fs36 28\f5 . \f1 Designing\par
+\b0\fs22\par
+\b\fs28 THEORY\f5  \f1 EXERCISE\f5 :\f1\par
+\b0\fs22 What\f5  \f1 role\f5  \f1 does\f5  \f1 UI\f5 /\f1 UX\f5  \f1 design\f5  \f1 play\f5  \f1 in\f5  \f1 application\f5  \f1 development\f5 ?\f1\par
+\par
+Answer\f5 :\f1\par
+\tab\f4\bullet\f1\tab UI\f5  (\f1 User\f5  \f1 Interface\f5 ): \f1 Deals\f5  \f1 with\f5  \f1 the\f5  \f1 design\f5 , \f1 layout\f5 , \f1 and\f5  \f1 look\f5  \f1 of\f5  \f1 the\f5  \f1 application\f5 .\f1\par
+\tab\f4\bullet\f1\tab UX\f5  (\f1 User\f5  \f1 Experience\f5 ): \f1 Focuses\f5  \f1 on\f5  \f1 usability\f5 , \f1 navigation\f5 , \f1 and\f5  \f1 how\f5  \f1 users\f5  \f1 interact\f5  \f1 with\f5  \f1 the\f5  \f1 system\f5 .\f1\par
+\par
+Role\f5  \f1 in\f5  \f1 Development\f5 :\f1\par
+\tab\f4\bullet\f1\tab Improves\f5  \f1 ease\f5  \f1 of\f5  \f1 use\f5  \f1 and\f5  \f1 accessibility\f5 .\f1\par
+\tab\f4\bullet\f1\tab Enhances\f5  \f1 customer\f5  \f1 satisfaction\f5  \f1 and\f5  \f1 engagement\f5 .\f1\par
+\tab\f4\bullet\f1\tab Reduces\f5  \f1 user\f5  \f1 errors\f5  \f1 with\f5  \f1 intuitive\f5  \f1 design\f5 .\f1\par
+\tab\f4\bullet\f1\tab Supports\f5  \f1 branding\f5  \f1 and\f5  \f1 creates\f5  \f1 a\f5  \f1 professional\f5  \f1 impression\f5 .\par
+\b\fs36 29. Mobile Application\fs22\par
+\fs28 THEORY EXERCISE: What are the differences between native and hybrid mobile apps?\par
+\b0\fs22 Feature\par
+Native Apps\par
+Hybrid Apps\par
+Platform\par
+Built for a single platform (Android or iOS).\par
+Runs on multiple platforms with a single codebase.\par
+Languages Used\par
+Java/Kotlin (Android), Swift/Objective-C (iOS).\par
+HTML, CSS, JavaScript with frameworks like Ionic or React Native.\par
+Performance\par
+High (optimized for the platform).\par
+Moderate (depends on web view wrapper).\par
+Access to Features\par
+Full access to device hardware and OS features.\par
+Limited access via plugins or APIs.\par
+Development Cost\par
+Higher (separate code for each platform).\par
+Lower (single codebase for multiple platforms).\par
+User Experience\par
+Superior, smooth, and responsive.\par
+Slightly less fluid compared to native.\par
+Update Process\par
+Requires app store approval and separate updates.\par
+Easier updates, often through server-side changes.\par
+\b\fs36 31. Desktop Application\b0\par
+\b\fs28 LAB EXERCISE: Build a Simple Desktop Calculator Application Using a GUI Library\par
+\b0\fs22\par
+Example in Python using Tkinter:\par
+\par
+import tkinter as tk\par
+\par
+def click(event):\par
+    text = event.widget.cget("text")\par
+    if text == "=":\par
+        try:\par
+            result = eval(str(entry.get()))\par
+            entry.delete(0, tk.END)\par
+            entry.insert(tk.END, result)\par
+        except Exception as e:\par
+            entry.delete(0, tk.END)\par
+            entry.insert(tk.END, "Error")\par
+    elif text == "C":\par
+        entry.delete(0, tk.END)\par
+    else:\par
+        entry.insert(tk.END, text)\par
+\par
+root = tk.Tk()\par
+root.title("Calculator")\par
+entry = tk.Entry(root, font="Arial 20")\par
+entry.pack(fill=tk.BOTH, ipadx=8)\par
+\par
+buttons = ["7", "8", "9", "/", "4", "5", "6", "*",\par
+           "1", "2", "3", "-", "C", "0", "=", "+"]\par
+\par
+f = tk.Frame(root)\par
+for i, b in enumerate(buttons):\par
+    btn = tk.Button(f, text=b, font="Arial 15", height=2, width=5)\par
+    btn.grid(row=i//4, column=i%4)\par
+    btn.bind("<Button-1>", click)\par
+f.pack()\par
+\par
+root.mainloop()\par
+\par
+\f7\u-10179?\u-9000?\f6  \f5 THEORY EXERCISE: Pros and Cons of Desktop Applications Compared to Web Applications\par
+Aspect\tab Desktop Applications\tab Web Applications\par
+Installation\tab Must be installed on each machine\tab No installation; accessed via browser\par
+Offline Access\tab Can work offline\tab Requires internet connection\par
+Performance\tab Usually faster due to local resources\tab Depends on network speed\par
+Maintenance\tab Harder to update (manual updates per user)\tab Easy to update (centralized)\par
+Compatibility\tab OS-specific (Windows, macOS)\tab Cross-platform (works on any browser)\par
+32. Flowchart\par
+\f2\u-10178?\u-8726?\f6  \f5 LAB EXERCISE: Draw a Flowchart Representing the Logic of a Basic Online Registration System\par
+\par
+\f7\u-10179?\u-8995?\f6  \f5 Steps to Represent in Flowchart:\par
+\par
+Start\par
+\par
+Input user details (name, email, password)\par
+\par
+Validate input (e.g., email format, password strength)\par
+\par
+If validation fails \f6\u8594? \f5 Show error \f6\u8594? \f5 Go back to input\par
+\par
+If validation passes \f6\u8594? \f5 Save data to database\par
+\par
+Show success message\par
+\par
+End\par
+\par
+\f7\u-10179?\u-9012?\f6  \f5 Use standard flowchart symbols:\par
+\par
+Ovals for Start/End\par
+\par
+Parallelogram for Input/Output\par
+\par
+Rectangles for Processes\par
+\par
+Diamonds for Decision-making\f1\par
+\lang9\par
+\par
+
+\pard\sa200\sl276\slmult1\b\fs28\par
+\b0\fs22\par
+\par
+\par
+\b\fs28\par
+\par
+\b0\fs22\par
+\par
+\b\fs28\par
+\b0\fs22\par
+\par
+
+\pard\sa200\sl276\slmult1\b\par
+\b0\par
+}
+ 
